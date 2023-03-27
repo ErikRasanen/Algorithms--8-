@@ -73,25 +73,25 @@ DONE, ran them in c++ shell
 
     Iterator is an object that points to an element in a container such as an array, vector, list, map, etc. Iterators allow you to access the elements of a container in a sequential manner, without knowing the underlying implementation of the container. Here are the different types of iterators in C++:
 
-      Input Iterator: It is used to read values from a container, but not modify them. It supports increment, dereference and comparison operators.
+    Input Iterator: It is used to read values from a container, but not modify them. It supports increment, dereference and comparison operators.
 
-      Output Iterator: It is used to write values to a container, but not read them. It supports increment and dereference operators.
+    Output Iterator: It is used to write values to a container, but not read them. It supports increment and dereference operators.
 
-      Forward Iterator: It is similar to the Input Iterator, but it can be used to modify the values of a container. It supports all the operations of Input Iterator, as well as increment, dereference and assignment operators.
+    Forward Iterator: It is similar to the Input Iterator, but it can be used to modify the values of a container. It supports all the operations of Input Iterator, as well as increment, dereference and assignment operators.
 
-      Bidirectional Iterator: It is similar to Forward Iterator, but it supports backward movement as well. It supports all the operations of Forward Iterator, as well as decrement operator.
+    Bidirectional Iterator: It is similar to Forward Iterator, but it supports backward movement as well. It supports all the operations of Forward Iterator, as well as decrement operator.
 
-      Random Access Iterator: It is the most powerful iterator, as it supports all the operations of Bidirectional Iterator, as well as arithmetic operations like addition and subtraction.
+    Random Access Iterator: It is the most powerful iterator, as it supports all the operations of Bidirectional Iterator, as well as arithmetic operations like addition and subtraction.
 
-      Benefits of iterators:
+    Benefits of iterators:
 
-      Abstraction: Iterators provide a layer of abstraction between the container and the code that uses it. This allows you to write generic algorithms that work with any container, without having to know the details of its implementation.
+    Abstraction: Iterators provide a layer of abstraction between the container and the code that uses it. This allows you to write generic algorithms that work with any container, without having to know the details of its implementation.
 
-      Efficiency: Iterators are designed to be efficient, and can be used to access the elements of a container in constant time.
+    Efficiency: Iterators are designed to be efficient, and can be used to access the elements of a container in constant time.
 
-      Flexibility: Iterators can be used to traverse a container in any order, and can be used to modify the elements of a container as well.
+    Flexibility: Iterators can be used to traverse a container in any order, and can be used to modify the elements of a container as well.
 
-      Safety: Iterators provide a safe way to access the elements of a container, as they prevent you from accessing elements that are out of bounds. They also provide a safe way to modify the elements of a container, as they prevent you from modifying elements that are read-only.
+    Safety: Iterators provide a safe way to access the elements of a container, as they prevent you from accessing elements that are out of bounds. They also provide a safe way to modify the elements of a container, as they prevent you from modifying elements that are read-only.
 
 
 
