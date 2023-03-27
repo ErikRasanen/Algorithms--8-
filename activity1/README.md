@@ -68,13 +68,16 @@ https://www.softwaretestinghelp.com/vectors-in-stl/
 Discuss the difference between
 
 - Size() and capacity()
+
         size() returns the number of elements currently stored in the vector, while capacity() returns the maximum number of elements that the vector can store without allocating more memory. The size() of a vector can change as elements are added or removed, but the capacity() only changes when the vector needs to allocate more memory to accommodate additional elements.
 
 - begin() and cbegin()
+
         begin() returns an iterator to the first element in the vector, while cbegin() returns a constant iterator to the first element. This means that the cbegin() iterator cannot be used to modify the contents of the vector. Both begin() and cbegin() are used to traverse the vector from the beginning to the end.
 
 
 - end() and cend()
+
         end() returns an iterator to the element following the last element in the vector, while cend() returns a constant iterator to the element following the last element. This means that the cend() iterator cannot be used to modify the contents of the vector. Both end() and cend() are used to traverse the vector from the beginning to the end.
 
 
